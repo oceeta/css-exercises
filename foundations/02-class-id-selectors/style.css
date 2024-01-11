@@ -10,3 +10,7 @@
     color: hsl(240, 72%, 50%);
     font-size: 36px;
 }
+
+.pink.font-size {
+    font-size: 24px;
+}
