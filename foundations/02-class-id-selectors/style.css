@@ -1,4 +1,12 @@
+* {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
 .pink {
     background-color: hsl(0, 91%, 77%);
-    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+#second-element {
+    color: hsl(240, 72%, 50%);
+    font-size: 36px;
 }
