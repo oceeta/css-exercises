@@ -14,3 +14,9 @@
 .pink.font-size {
     font-size: 24px;
 }
+
+#fourth-element {
+    background-color: hsl(120, 81%, 72%);
+    font-size: 24px;
+    font-weight: bold;
+}
