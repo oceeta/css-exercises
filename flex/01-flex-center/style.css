@@ -4,10 +4,8 @@
   width: 400px;
   height: 300px;
   display: flex;
-  /*justify-content: center;
+  justify-content: center;
   align-items: center;
-  
-  This will also center the div*/
 }
 
 .box {
@@ -17,5 +15,4 @@
   border: 6px solid maroon;
   width: 80px;
   height: 80px;
-  margin: auto;
 }
