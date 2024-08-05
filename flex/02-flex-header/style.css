@@ -4,6 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  min-width: fit-content;
 }
 
 .logo {
@@ -12,7 +13,7 @@
   color: tomato;
   background: white;
   padding: 4px 32px;
-  margin: 8px auto;
+  margin: 8px;
 }
 
 .left-links {
@@ -23,7 +24,6 @@
 .right-links {
   display: flex;
   margin-right: 8px;
-  min-width: fit-content;
 }
 
 ul {
