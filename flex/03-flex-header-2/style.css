@@ -4,11 +4,16 @@ you'll learn about it later. */
 
 body {
   margin: 0;
+  box-sizing: border-box;
   background: #eee;
   font-family: Besley, serif;
 }
 
 .header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
@@ -20,6 +25,7 @@ body {
   border-radius: 50%;
   width: 48px;
   height: 48px;
+  flex-shrink: 0;
 }
 
 .logo {
@@ -27,6 +33,13 @@ body {
   font-size: 32px;
   font-weight: 900;
   font-style: italic;
+}
+
+.links,
+.left-nav-links,
+.right-nav-links {
+  display: flex;
+  gap: 16px;
 }
 
 button {
@@ -45,4 +58,5 @@ a {
 
 ul {
   list-style-type: none;
+  padding: 0;
 }
