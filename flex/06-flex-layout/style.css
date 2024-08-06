@@ -29,7 +29,6 @@ input {
   border-radius: 16px;
   padding: 8px 24px;
   width: 400px;
-  margin-bottom: 16px;
 }
 
 ul {
@@ -42,10 +41,9 @@ a {
   color: #6b6b6b;
 }
 
-.header {
+.header, .footer {
   display: flex;
   justify-content: space-between;
-  margin-bottom: auto;
 }
 
 .left-links, .right-links {
@@ -66,6 +64,7 @@ a {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
 }
 
 .buttons {
@@ -75,8 +74,5 @@ a {
 }
 
 .footer {
-  display: flex;
-  justify-content: space-between;
-  margin-top: auto;
   background-color: #eeeeee;
 }
